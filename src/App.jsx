@@ -13,7 +13,7 @@ const App = () => {
   const [mailboxes, setMailboxes] = useState([]);
 
   const addBox = (newMailbox) => {
-    newMailbox.id = mailboxes.length + 1;
+    newMailbox._id = mailboxes.length + 1;
     setMailboxes([...mailboxes,newMailbox]);
   };
 
