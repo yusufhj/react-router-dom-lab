@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const MailboxList = (props) => {
     return (
         <>
-            <h2>Mailbox</h2>
+            <h1>Mailbox List</h1>
             <ul>
                 {props.mailboxes.map((mail) => (
                     <li key={mail._id}>
